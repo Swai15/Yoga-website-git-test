@@ -1,3 +1,3 @@
-#Git tut
+#Gittut
 
 A simple static website
