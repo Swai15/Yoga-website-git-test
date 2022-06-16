@@ -1,3 +1,1 @@
-#Gittut
-
-A simple static website
+A simple yoga website
