@@ -1,0 +1,202 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: rgb(75, 75, 75);
+}
+
+.header {
+  height: 70px;
+  background: rgb(229, 237, 245);
+  position: relative;
+  max-width: 100%;
+
+
+}
+
+.headertext {
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: rgb(75, 75, 75);
+
+}
+
+
+
+.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("../Images/Practicesmall.jpg");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("../Images/Loungesmall.jpg");
+  min-height: 500px;
+  max-height: 501x;
+}
+
+.pimg3 {
+  background-image: url("../Images/Outdoorssmall.jpg");
+  min-height: 500px;
+  max-height: 501x;
+  background-position: 20% 0%;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: rgb(229, 237, 245);
+}
+
+.section-dark {
+  background-color: rgb(58, 58, 58);
+  color: #fff;
+}
+
+.ptext {
+  position: absolute;
+
+  text-align: center;
+
+  top: 50%;
+  left: 45%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 27px;
+  line-height: 1.4;
+  color: rgb(0, 216, 180);
+}
+
+.ptext3 {
+  position: absolute;
+
+  text-align: center;
+
+  top: 50%;
+  left: 20%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 27px;
+  line-height: 1.4;
+  color: rgb(0, 216, 180);
+}
+
+
+
+.ptext .border {
+  background-color: black;
+  color: #fff;
+}
+
+.ptext3 .border {
+  background-color: black;
+  color: #fff;
+}
+
+/* can use transparent on last two divs as the background color for the .ptext .border .transparent */
+
+* {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.last-div {
+  min-height: 300px;
+  max-height: 301px;
+}
+
+.location, .fa-phone {
+  text-decoration: none;
+  line-height: 0em;
+  color: black;
+  letter-spacing: 1.5PX;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.locationLeft {
+  position: relative;
+  right: 42vw;
+}
+
+.fa-phone {
+  position: relative;
+  bottom: 6.3vh;
+  left: 80vh;
+}
+
+.testimonials {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+  width: 15vh;
+  height: 10vh;
+  background: red;
+  bottom: 140px;
+  left: 50px;
+}
+
+
+
+
+
+
+
+@media (max-width: 568px) {
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
+
+
+
+  .ptext {
+    left: 29%;
+  }
+
+  .ptext3 {
+    left: 0%;
+  }
+
+  .locationLeft {
+    position: relative;
+    right: 25vw;
+
+    bottom: 12vh;
+
+  }
+
+  .locationLeft, .fa-phone {
+    letter-spacing: normal;
+    font-weight: 800;
+
+  }
+
+  .fa-phone {
+    position: relative;
+    bottom: 18.3vh;
+    left: 25vh;
+    font-weight: 400;
+
+  }
+}
